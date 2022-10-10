@@ -1,0 +1,217 @@
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ pwd
+/c/Users/chauhanprince/Desktop
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ pwd
+/c/Users/chauhanprince/Desktop
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ mkdir Steve
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ rmdir Steve
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ mkdir steve
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ ./steve/
+bash: ./steve/: Is a directory
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ mkdir hasbullah hasbic ninja
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ rmdir hasbullah hasbic ninja
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ pwd steve
+/c/Users/chauhanprince/Desktop
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ cd steve
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve
+$ mkdir hasbic hasbullah ninja
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve
+$ rmdir -p steve
+rmdir: failed to remove 'steve': No such file or directory
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve
+$ cd..
+bash: cd..: command not found
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve
+$ cd./dekstop/
+bash: cd./dekstop/: No such file or directory
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve
+$ cd ..
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ rmdir -p steve
+rmdir: failed to remove 'steve': Directory not empty
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ rmdir -p steve/hasbullah
+rmdir: failed to remove directory 'steve': Directory not empty
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ cd /steve/hasbic
+bash: cd: /steve/hasbic: No such file or directory
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ cd steve hasbic
+bash: cd: too many arguments
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ cd /steve/hasbic/
+bash: cd: /steve/hasbic/: No such file or directory
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ pwd
+/c/Users/chauhanprince/Desktop
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ ls
+'New Text Document.txt'     dailyevent/  'user credientals.txt'
+ Slack.lnk*                 desktop.ini
+'Visual Studio Code.lnk'*   steve/
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ ped
+bash: ped: command not found
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ pwd
+/c/Users/chauhanprince/Desktop
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ ^C
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ cd /c/Users/chauhanprince/Desktop
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ cd /c/Users/chauhanprince/Desktop/steve
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve
+$ cd ..
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ cd /Desktop/steve
+bash: cd: /Desktop/steve: No such file or directory
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ cd
+New Text Document.txt   dailyevent/             user credientals.txt
+Slack.lnk               desktop.ini
+Visual Studio Code.lnk  steve/
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ cd
+New Text Document.txt   dailyevent/             user credientals.txt
+Slack.lnk               desktop.ini
+Visual Studio Code.lnk  steve/
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ cd steve
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve
+$ cd desktop
+bash: cd: desktop: No such file or directory
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve
+$ cd ..
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ cd steve
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve
+$ cd hasbic
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve/hasbic
+$ touch bgmi
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve/hasbic
+$ cd ~
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~
+$ cd Desktop
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ cd steve
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve
+$ cd -
+/c/Users/chauhanprince/Desktop
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ cd steve
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve
+$ cd hasic
+bash: cd: hasic: No such file or directory
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve
+$ cd hasbic
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve/hasbic
+$ cd.
+bash: cd.: command not found
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve/hasbic
+$ cd .
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve/hasbic
+$ cd ..
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve
+$ mkdir hasbullah
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve
+$ mkdir pra nav
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve
+$ cd pra nav
+bash: cd: too many arguments
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve
+$ cd 'pra nav'
+bash: cd: pra nav: No such file or directory
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve
+$ mkdir 'pra nav'
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve
+$ cd 'pra nav'
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve/pra nav
+$ cd ..
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve
+$ cd /pra /nav
+bash: cd: too many arguments
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve
+$ cd pra\ nav\
+>
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve/pra nav
+$ cd ~
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~
+$ cd Desktop
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ cd steve\hasbic\
+>
+bash: cd: stevehasbic: No such file or directory
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop
+$ cd steve/hasbic/
+
+chauhanprince@PRINCE-DEVOPS MINGW64 ~/Desktop/steve/hasbic
+$
